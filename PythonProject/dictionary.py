@@ -36,3 +36,16 @@ nested={
 # Update method
 nested.update({"name": "Ishu Jain"})
 # print(nested)
+
+
+d=(
+    {
+        "name": "Ishu",
+        "age": 23,
+    },
+    {
+        "name": "Suri",
+        "age": 21,
+    }
+)
+print(d)
