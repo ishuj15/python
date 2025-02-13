@@ -11,7 +11,8 @@ print(type(tu))
 # if you didn't use , then python will consider it as int and not tuples
 tup=(1)
 print(type(tup))
-
+# tupple=1,
+# print(type(tupp))
 # You can do slicing in tuple
 
 # Methods in tuple
