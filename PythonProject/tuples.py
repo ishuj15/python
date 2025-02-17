@@ -1,7 +1,7 @@
 # Immutable
 # you can add mutable objects in tuple but can't do it in sets and dictionary
 # You can't modify element inplace
-customTuple=(1,2,[1,2])
+customTuple=(1,2,[1,2],{1,2},{ 'name':'Ishu', 'age': '23' })
 print(customTuple)
 print(customTuple[1])
 
@@ -12,8 +12,10 @@ print(type(tu))
 tup=(1)
 print(type(tup))
 # tupple=1,
-# print(type(tupp))
+# print(type(tupple))
 # You can do slicing in tuple
 
 # Methods in tuple
-# 1) tu.index(elemet)  to find indes and 2) tu.count(element)
+# 1) tu.index(element)  to find index and 2) tu.count(element)
+
+print(customTuple[2])
