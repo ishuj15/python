@@ -27,5 +27,5 @@ g=gen_fun()
 
          raise  StopIteration()
 
-ob=PrimeGenerator()
+ob=PrimeGenerator
 next(ob)
